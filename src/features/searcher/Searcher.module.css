@@ -1,0 +1,121 @@
+.headbox {
+    display: flex !important;
+}
+
+.imgDiv {
+    padding: 10px;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.opacity50 {
+    opacity: 0.5;
+}
+
+.search {
+    padding: 15px;
+    font-size: 16px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid lightgrey;
+}
+
+.searcher {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 450px;
+
+}
+
+.repos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 40px 20px 0;
+}
+
+.repo {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.repoName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 5px;
+}
+
+.repoLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.owner {
+    margin: 10px 0;
+}
+
+.profileImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.userName {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.userLink {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    position: relative;
+    line-height: 3.6;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    width: 95px;
+    padding: 0 10px;
+    background-image:
+            linear-gradient(45deg, transparent 50%, gray 50%),
+            linear-gradient(135deg, gray 50%, transparent 50%),
+            linear-gradient(to right, #ccc, #ccc);
+    background-position:
+            calc(100% - 20px) calc(1.4em + 2px),
+            calc(100% - 15px) calc(1.4em + 2px),
+            calc(100% - 2.5em) 1em;
+    background-size:
+            5px 5px,
+            5px 5px,
+            1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .repos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
