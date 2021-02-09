@@ -43,4 +43,10 @@ These are some of the things were required but didn't tried it due to personal c
 
 3. Didn't cover most of loading, error boundries etc
 
+4. Naming variable isn't at its best, as well as refactoring
+
+5. Ignored TS at few places to speed up stuff
+
+
+
 
